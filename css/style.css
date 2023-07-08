@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+    font-family: 'Open Sans', sans-serif;;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* ####### Global CSS  ####### */
+.title{
+    width: 100%;
+    padding: 0px 0px 10px;
+}
+.title h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title img{
+    margin: 0px 0px 10px;
+}
+
+/* ####### Header Section CSS ####### */
+
+.header{
+    width: 100%;
+    padding: 10px 0px;
+}
+.header .navbar-nav .nav-item .nav-link{
+    font-family:'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #204f87;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 15px;
+    transition: 1s;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    color: #f36b30;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+    color: #f36b30;
+}
+
+/* ####### Banner Section CSS ####### */
+.banner{
+    width:100%;
+    padding: 80px 0px;
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+.banner .banner-text{
+    width: 100%;
+    padding: 125px 0px 0px;
+
+}
+.banner .banner-text h1{
+    font-size: 60px;
+    line-height: 1.3em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner .arrow-down{
+    width:100%;
+    padding: 125px 0px 0px;
+}
+.arrow-down .fa{
+    font-size: 24px;
+    color:#fff;
+}
+
+/* ####### Who We Are Section CSS ####### */
+
+.who-we{
+    width: 100%;
+    padding: 80px 0px;
+}
+.who-we .title{
+    padding: 40px 0px 0px;
+}
+.who-we .title h1{
+    color:#204f87;
+}
+.who-we p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #b0b0b1;
+    text-align: justify;
+}
+.who-we .who-we-img{
+    width:100%;
+    text-align: center;
+}
+
+/* ####### Who We Do Section CSS ####### */
+.what-we-do{
+    width: 100%;
+    padding: 70px 0px 50px;
+    background: url("../images/what-we-do-bg.png") center top no-repeat;
+
+}
+.what-we-do .title{
+    padding:35px 0px 50px;
+    text-align: center;
+}
+.what-we-do .title h1{
+    color: #2b2f85;
+}
+.what-we-do .card .card-img{
+    border-radius: 0px;
+    border: 0px;
+}
+.what-we-do .card{
+    position:relative;
+    text-align: center;
+    border: 0px;
+}
+.what-we-do .card::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#343686+1,343686+48,343686+100&0+2,1+99 */
+background: -moz-linear-gradient(top, rgba(52,54,134,0) 1%, rgba(52,54,134,0) 2%, rgba(52,54,134,0.47) 48%, rgba(52,54,134,1) 99%, rgba(52,54,134,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(52,54,134,0) 1%,rgba(52,54,134,0) 2%,rgba(52,54,134,0.47) 48%,rgba(52,54,134,1) 99%,rgba(52,54,134,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(52,54,134,0) 1%,rgba(52,54,134,0) 2%,rgba(52,54,134,0.47) 48%,rgba(52,54,134,1) 99%,rgba(52,54,134,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00343686', endColorstr='#343686',GradientType=0 ); /* IE6-9 */
+
+}
+.what-we-do .card-title{
+    font-size: 18px;
+    color:#fff;
+    font-weight: 600;
+    line-height: 1.7em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.what-we-do .arrow-img{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* ####### Our Attorneys Section CSS ####### */
+
+.our-attorney{
+    width: 100%;
+    background: url("../images/attorney-bg.png") center top no-repeat;
+    background-size: cover;
+    padding: 90px 0px;
+}
+
+.our-attorney .title{
+    padding: 70px 0px;
+}
+.our-attorney .title h1{
+    color: #fff;
+    margin: 0px 0px 15px;
+}
+
+.our-attorney .title p{
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #929dcf;
+    margin: 0px 0px 25px;
+}
+.card .card-img{
+    border-radius: 0px;
+}
+.our-attorney .card{
+    position:relative;
+    border: 0px;
+    margin: 0px 0px 30px;
+}
+.our-attorney .card::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    * Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#28377e+0,28377e+100&0+0,0.81+100 */
+    background: -moz-linear-gradient(top, rgba(40,55,126,0) 0%, rgba(40,55,126,0.81) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(40,55,126,0) 0%,rgba(40,55,126,0.81) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(40,55,126,0) 0%,rgba(40,55,126,0.81) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0028377e', endColorstr='#cf28377e',GradientType=0 ); /* IE6-9 */
+}
+.our-attorney .card-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 600;
+    line-height: 1.7em;
+    position: absolute;
+    bottom: 30;
+    left: 30;
+    
+}
+.our-attorney .custom-link{
+    font-size: 16px;
+    color:#f36b30;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition:1s;
+}
+.our-attorney .custom-link:hover{
+    color:#fff;
+}
+/* ####### Languages Section CSS ####### */
+.language{
+    width: 100%;
+    padding: 80px 0px;
+}
+.language .title{
+    text-align: center;
+}
+.language .title h1{
+    color:#28377e;
+}
+.language .language-box{
+width: 100%;
+padding: 50px 5px 0px;
+}
+.language .language-box h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #28377e;
+    text-transform: uppercase;
+}
+.language .language-box p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color:#b1b0b1;
+}
+.language .custom-link{
+    font-size: 16px;
+    color:#f36b30;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition:1s;
+}
+.language .custom-link:hover{
+    color:#204f87;
+}
+
+/* ####### Contact Section CSS ####### */
+.contact{
+    width:100%;
+    padding: 80px 0px;
+    background: #28377e;
+}
+.contact .title{
+    text-align: center;
+}
+.contact .title h1{
+    color:#fff;
+}
+.contact form{
+   margin-top: 50px;
+
+}
+.contact form .form-group{
+    position: relative;
+    display: block;
+    margin-bottom: 48px;
+}
+.contact form .form-group span{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    transition: 2s ease;
+    transform-origin: 0 0;
+    cursor: text;
+}
+.contact form .form-group span.border{
+    height: 2px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 41;
+    transform: scaleX(0);
+    transition: all .15s ease;
+    background: #ffffff;
+}
+.contact .form-group .form-control{
+    border: none;
+    color:#929dcf;
+    border-bottom: 2px solid #4759a7;
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    background: none;
+    border-radius: 0;
+}
+.contact .form-group .form-control:focus, .contact .form-group .form-control:valid{
+    border-bottom: 2px solid #ffffff;
+    box-shadow: none;
+}
+.contact .form-group .form-control:focus + span, .contact .form-group .form-control:valid + span{
+    transform: translateY(-22px) scale(0.8);
+}
+.contact .form-group .form-control:focus + span + .border, .contact .form-group .form-control:valid + span + .border{
+    transform:scaleX(1);
+}
+.contact form button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #f2622c;
+    background: #f2622c;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    transition: 1s;
+}
+.contact form button:hover{
+    border:2px solid #f2622c;
+    background: transparent;
+
+}
+/* ####### Footer Section CSS ####### */
+.footer{
+    width: 100%;
+    padding:60px 0px 35px;
+    background: #0c1234;
+}
+.footer p{
+    font-size: 16px;
+    color:#616ca8;
+    padding-left: 15px;
+}
+.footer .social-icon{
+    width: 100%;
+    text-align: right;
+}
+.footer .social-icon ul{
+    margin-bottom: 0px;
+}
+.footer .social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .social-icon ul li a{
+    display: block;
+    color: #9597b9;
+    margin-left: 25px;
+    font-size: 24px;
+    transition:1s;
+}
+.footer .social-icon ul li a:hover{
+    color:#f2622c;
+}
